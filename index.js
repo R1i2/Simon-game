@@ -30,7 +30,7 @@ function checkAnswer(currentLevel)
        wrong.play();
        startOver();
        setTimeout(function(){$("body").removeClass("game-over");},200);
-       $("#level-title").text("Game Over, Press Enter Any Key to Restart");
+       $("#level-title").text("Game Over, Press Enter Key to Restart");
    }
    if((userClickedPattern.length===gamePattern.length)&&started===true)
    {
